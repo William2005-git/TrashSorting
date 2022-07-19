@@ -1,0 +1,11 @@
+
+--endpoint aub2g1l1fft9x-ats.iot.us-east-1.amazonaws.com
+--topic '$aws/things/deeplens_FJM08Y6pS7W5sdGaSsa0ow/infer'
+
+最终执行命令
+cd ~/ArmPi_PC_Software/
+
+python3 subTrash.py --topic '$aws/things/deeplens_FJM08Y6pS7W5sdGaSsa0ow/infer' --rootCA AmazonRootCA1.pem --cert 3fa997fdbdef6e2041060f98299c2d29be2a808ea0cf4301daf7aeb87941c3de-certificate.pem.crt --key 3fa997fdbdef6e2041060f98299c2d29be2a808ea0cf4301daf7aeb87941c3de-private.pem.key --endpoint aub2g1l1fft9x-ats.iot.us-east-1.amazonaws.com
+
+
+
